@@ -43,11 +43,11 @@ a{
     text-align:center;
     text-transform: capitalize;
 }
- .outer{
+ #outer{
     font-size:25px;
     text-align:center;
  }
- .inner{
+ #inner{
     font-size: 10px;
     
  }
