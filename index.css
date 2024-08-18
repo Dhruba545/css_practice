@@ -1,9 +1,18 @@
 .silver{
     background-color: silver;
 }
-#first_div{
+#box{
     background-color: blue;
 }
-.heading{
+/* .heading {
     color: red;
+    
+} */
+
+h1 , h2 , h3 {  /* multiple select*/
+    collor: red ;
+}
+
+.button1{
+    background-color: green;
 }
