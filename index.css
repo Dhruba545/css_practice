@@ -41,7 +41,7 @@ a{
 }
 .heading2{
     text-align:center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
  #outer{
     font-size:25px;
