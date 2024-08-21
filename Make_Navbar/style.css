@@ -27,3 +27,17 @@ a{
     text-decoration:none;
     
 }
+.div{
+    width:300px;
+    height:300px;
+    padding:20px;
+    margin:30px;
+    display:inline-block
+
+}
+.footer{
+    text-align:center;
+}
+.content{
+    height: 800px;
+}
