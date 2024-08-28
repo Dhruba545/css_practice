@@ -1,0 +1,47 @@
+body{
+    background-color:white;
+}
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: firstanime;
+    animation-duration: 100s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    background-color: green;
+    /* animation-direction: reverse; */
+
+}
+
+.child{
+    width:40%;
+    height: 40%;
+    border-radius:50%;
+    animation-name: second;
+    animation-duration: 100s;
+    animation-delay: 0a;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: 1;
+    background-color: red;
+
+}
+
+
+
+@keyframes firstanime {
+    from{ background-color: rgb(255, 255, 255);}
+    to{
+        background-color: green;
+    }
+}
+@keyframes second {
+    from{ background-color:rgb(255, 255, 255);}
+    to{
+        background-color: red;
+    }
+}
